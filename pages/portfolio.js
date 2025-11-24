@@ -14,11 +14,11 @@ import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
-const Works = () => (
-  <Layout title="Works">
+const Portfolio = () => (
+  <Layout title="Portfolio">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Works
+      Hackathons
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
@@ -60,7 +60,7 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Personal Projects
         </Heading>
       </Section>
 
@@ -91,7 +91,7 @@ const Works = () => (
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
-          Old works
+          University Projects
         </Heading>
       </Section>
 
@@ -121,5 +121,5 @@ const Works = () => (
   </Layout>
 )
 
-export default Works
+export default Portfolio;
 export { getServerSideProps } from '../components/chakra'
