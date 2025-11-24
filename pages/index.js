@@ -7,7 +7,7 @@ import {
   Button,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
@@ -112,10 +112,28 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
+          Awards
+        </Heading>
+        <BioSection>
+          <BioYear>2024</BioYear>
+          2nd Place at Monash Macathon - &ldquo;AI for Social Good&ldquo;
+        </BioSection>
+        <BioSection>
+          <BioYear>2025</BioYear>
+          1st Place at MedHack 2025: AI Hospital
+        </BioSection>
+        <BioSection>
+          <BioYear>2025</BioYear>
+          3rd Place at Heidi Health x GCP Hackathon: AI for Healthcare
+        </BioSection>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music, Books, Machine Learning
+          Books, Blues Piano, Machine Learning
         </Paragraph>
       </Section>
     </Container>
