@@ -130,6 +130,20 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
+          Certifications
+        </Heading>
+        <BioSection>
+          <BioYear>2025</BioYear>
+          Microsoft Certified: Azure AI Fundamentals
+        </BioSection>
+        <BioSection>
+          <BioYear>2025</BioYear>
+          Microsoft Certified: Azure AI Engineer Associate
+        </BioSection>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Paragraph>
