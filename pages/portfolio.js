@@ -8,10 +8,28 @@ import cliniqThumbnail from '../public/images/portfolio/heidi.jpg'
 import scavengerThumbnail from '../public/images/portfolio/scavenger.png'
 import questionGeneratorThumbnail from '../public/images/portfolio/hackiethon.jpg'
 import trainerThumbnail from '../public/images/portfolio/trainerai.jpg'
+import summaThumbnail from '../public/images/portfolio/summa.webp'
 
 const Portfolio = () => (
   <Layout title="Portfolio">
     <Container>
+      <Heading as="h3" fontSize={20} mb={4}>
+        Works
+      </Heading>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.1}>
+          <GridItem
+            id="summa"
+            title="Summa System"
+            thumbnail={summaThumbnail}
+          >
+            A light-controlling solution based on event-driven microservice architecture.
+          </GridItem>
+        </Section>
+      </SimpleGrid>
+      
+
       <Heading as="h3" fontSize={20} mb={4}>
         Hackathons
       </Heading>
